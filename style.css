@@ -1,0 +1,17 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backgraund-image__main {
+    position: relative;
+
+}
+.backgraund-image__main-text {
+    position: relative;
+    color: white;
+}
+.information-section {
+    color: white;
+}
