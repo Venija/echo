@@ -1,5 +1,4 @@
 * {
-    background-color: green;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,10 +8,7 @@
 }
 .header-navigation {
     background-color: #0b0b0b;
-    width: 1280px;
-    height: 61px;
     display: flex;
-    
     justify-content: space-between;
 }
 .header-menu {
@@ -48,22 +44,47 @@
     margin: 16px;
 }
 
-.backgraund-image {
+.background-image {
     background-image: url(../img/IMAGE.jpg);
     background-size: cover;
     background-position: center;
-    width: 1280px;
-    height: 720px;
+    min-height: 720px;
+    display: flex;
+    justify-content: center;
+    
+    
 }
-.backgraund-image__main {
-text-align: center;
-color: #fff;
+.background-image__conteiner {
+margin-top: 125px;
 }
-.backgraund-image__main-text {
-    width: 1280px;
-    height: 720px;
-    color: white;
+.background-image__main {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    font-size: 115px;
+    line-height: 120px;
+    max-width: 1210px;
+    
+
+}
+
+.background-image__mail-conteiner {
+    display: flex;
+    justify-content: center;
+}
+.background-image__mail {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-top: 86px;
+    width: 132px;
 }
 .information-section {
     color: white;
+
 }
