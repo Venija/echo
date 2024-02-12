@@ -5,63 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Echo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/fontsyle.css">
 </head>
 <body>
     <header class="header">
-        <div class="navigation-container">
-            <nav class="navigation">
-                <ul>
-                    <li><a href="#">Upcoming</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">Artist</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Join</a></li>
-                    <p style="color: white;">/</p>
-                    <li><a href="#">You're an arttist?</a></li>
-                    <p style="color: white;">/</p>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#" title="FB"  class="btn-social btn-social_fb"><img src="/icon/fb.png"></a></li>
-                    <li><a href="#" title="inst" class="btn-social btn-social_inst"><img src="/icon/inst.png"></a></li>
-                    <li><a href="#" title="twit" class="btn-social btn-social_twit"><img src="/icon/twit.png"></a></li>
+        <div class="header-container">
+            <nav class="header-navigation">
+                <ul class="header-menu">
+                    <li class="header-menu__item"><a class="header-menu__link" href="#">Upcoming</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="#">Videos</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="#">Artist</a></li>
+                    <li class="header-menu__item"><a class="header-menu__link" href="#">Blog</a></li>
                 </ul>
+                <ul class="header-loginmenu">    
+                    <li class="header-loginmenu__item"><a class="header-loginmenu__link" href="#">Join</a></li>
+                    <li class="header-loginmenu__item"><p class="header-loginmenu__link" style="color: white;">/</p></li>
+                    <li class="header-loginmenu__item"><a class="header-loginmenu__link" href="#">You're an arttist?</a></li>
+                    <li class="header-loginmenu__item"><p class="header-loginmenu__link" style="color: white;">/</p></li>
+                    <li class="header-loginmenu__item"><a class="header-loginmenu__link" href="#">Login</a></li>
+                </ul>
+                <ul class="header-menusocial">
+                    <li class="header-menusocial__item"><a class="header-menusocial__link" href="#" title="inst" class="btn-social_inst"><img src="/icon/inst.png"></a></li>
+                    <li class="header-menusocial__item"><a class="header-menusocial__link" href="#" title="twit" class="btn-social_twit"><img src="/icon/twit.png"></a></li>
+                    <li class="header-menusocial__item"><a class="header-menusocial__link" href="#" title="FB"  class="btn-social_fb"><img src="/icon/fb.png"></a></li>
+                </ul>    
             </nav>        
         </div>
     </header>
-    <div class="backgraund-image__main"><img src="/img/IMAGE.jpg" alt="">
-        <h1 class="backgraund-image__main-text">Watch and interact with your favorite musicians Live from their studio.</h1>
-        <a href="#">Join Echio for free</a>
-    </div>
-    <section class="information-section">   
-        <div>
-            <h3>A UNIQUE WAY TO EXPERIENCE YOUR FAVORITE ARTISTS</h3>
-            <p>Echio creates a live window into how your favorite artists work, how they think, how they approach creative problems and overcome technical ones.</p>
-            <button>Get inspired</button>
+    <main> 
+        <div class="backgraund-image">
+            <h1 class="backgraund-image__main">Watch and interact with your favorite musicians Live from their studio.</h1>
+            <a class="backgraund-image__mail" href="#">Join Echio for free</a>
         </div>
-        <div>
-            <h2>Experience</h2>
-        </div>
-        <div>
-            <h2>Exchange</h2>
-        </div>
-        <div>
-            <h3>AN INTERACTIVE AND MEANINGFUL CONNECTION</h3>
-            <p>Theres no substitute for live exchange. With Echio, we offer a deeper level of interaction between artists and fans. Fans ask their favorite artists questions, access exclusive shared files. Artists can involve their biggest fans into their creative process or get instant feedback on their work in progress.</p>
-            <button>Get involved</button>
-        </div>
-        <div>
-            <h3>SUPPORT ARTISTS, NOT BIG TECH</h3>
-            <p>Unlike other platforms, 85% of what you pay goes directly to the artists whose work you love. Founded by artists themselves, Echio is committed to fair and transparent business practices</p>
-            <button>upport artists you love</button>
-        </div>
-        <div>
-            <h2>SUPPORT</h2>
-        </div>
-        <div>
-            <h1>What artists did on Echio</h1>
-        </div>
-    
-    </section>
-
+        <section class="information-section">   
+            <div>
+                <h3>A UNIQUE WAY TO EXPERIENCE YOUR FAVORITE ARTISTS</h3>
+                <p>Echio creates a live window into how your favorite artists work, how they think, how they approach creative problems and overcome technical ones.</p>
+                <button>Get inspired</button>
+            </div>
+            <div>
+                <h2>Experience</h2>
+            </div>
+            <div>
+                <h2>Exchange</h2>
+            </div>
+            <div>
+                <h3>AN INTERACTIVE AND MEANINGFUL CONNECTION</h3>
+                <p>Theres no substitute for live exchange. With Echio, we offer a deeper level of interaction between artists and fans. Fans ask their favorite artists questions, access exclusive shared files. Artists can involve their biggest fans into their creative process or get instant feedback on their work in progress.</p>
+                <button>Get involved</button>
+            </div>
+            <div>
+                <h3>SUPPORT ARTISTS, NOT BIG TECH</h3>
+                <p>Unlike other platforms, 85% of what you pay goes directly to the artists whose work you love. Founded by artists themselves, Echio is committed to fair and transparent business practices</p>
+                <button>upport artists you love</button>
+            </div>
+            <div>
+                <h2>SUPPORT</h2>
+            </div>
+            <div>
+                <h1>What artists did on Echio</h1>
+            </div>
+        
+        </section>
+    </main>   
     
 </body>
 
