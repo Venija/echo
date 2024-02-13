@@ -14,7 +14,7 @@
 .header-menu {
     display: flex;
     margin: auto;
-    margin-left: 205px;
+    margin-left: 150px;
 }
 .header-menu__item {
     margin: 24px;
@@ -51,7 +51,7 @@
     min-height: 720px;
     display: flex;
     justify-content: center;
-    
+    height: 50vw;
     
 }
 .background-image__conteiner {
@@ -85,6 +85,38 @@ margin-top: 125px;
     width: 132px;
 }
 .information-section {
-    color: white;
+    
+    color: rgb(255, 255, 255);
 
+}
+.experience-card {
+    display: flex;
+  
+}
+.black-card {
+    background-color: #0b0b0b;
+    height: 740px;
+    width: 50vw;
+
+}
+.experience-card__blue {
+    background-color: #4A00FF;
+    height: 740px;
+    width: 50vw;
+}
+.exchange-card {
+    display: flex;
+}
+.exchange-card__green {
+    background-color: #00FF9D;
+    height: 740px;
+    width: 50vw;
+}
+.support-card {
+    display: flex;
+}
+.support-card__orange {
+    background-color: #FF8B00;
+    height: 740px;
+    width: 50vw;
 }
