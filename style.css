@@ -7,7 +7,12 @@
     background-color: #0b0b0b;
 }
 .header-navigation {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
     background-color: #0b0b0b;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
 }
@@ -15,6 +20,7 @@
     display: flex;
     margin: auto;
     margin-left: 150px;
+    list-style: none;
 }
 .header-menu__item {
     margin: 24px;
@@ -27,6 +33,7 @@
     display: flex;
     align-items: center;
     margin: 10px; 
+    list-style: none;
 }
 .header-loginmenu__item {
     margin: 8px;
@@ -39,6 +46,7 @@
     display: flex;
     align-items: center; 
     margin: 8px;
+    list-style: none;
 }
 .header-menusocial__item {
     margin: 16px;
@@ -147,7 +155,7 @@ margin-top: 125px;
     font-family: 'Segoe UI', sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #fff;
+    color: #0b0b0b;
     font-size: 39px;
     line-height: 44px;
     margin-left: 112px;
@@ -157,7 +165,7 @@ margin-top: 125px;
     font-family: 'Segoe UI', sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #fff;
+    color: #0b0b0b;
     font-size: 16px;
     line-height: 22.4px;
     margin-top: 28px;
@@ -169,6 +177,7 @@ margin-top: 125px;
     background-color: #0b0b0b;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 .btn-cards__text {
     font-family: 'Segoe UI', sans-serif;
@@ -181,4 +190,21 @@ margin-top: 125px;
     margin-bottom: 6px;
     margin-left: 28px;
     margin-right: 28px;
+    pointer-events: none;    
+}
+.gallery-header {
+    background-color: #0b0b0b;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-header__text {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 68px;
+    line-height: 72px;
+    text-align: center;   
 }
