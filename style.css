@@ -93,13 +93,12 @@ margin-top: 125px;
     width: 132px;
 }
 .information-section {
-    
+    background-color: #0b0b0b;
     color: rgb(255, 255, 255);
 
 }
 .experience-card {
     display: flex;
-  
 }
 .black-card {
     background-color: #0b0b0b;
@@ -192,6 +191,9 @@ margin-top: 125px;
     margin-right: 28px;
     pointer-events: none;    
 }
+.gallery-section {
+    background-color: #0b0b0b;
+}
 .gallery-header {
     background-color: #0b0b0b;
     height: 176px;
@@ -211,10 +213,35 @@ margin-top: 125px;
 .slider {
     background-color: #0b0b0b;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
 }
 .swiper {
-    width: 100%;
-    height: 840px;
+overflow: hidden;
+position: relative;
+}
+.swiper-wrapper {
+    box-sizing: content-box;
+}
+.swiper-slide {
+        display: flex;
+        width: auto;
+        height: auto;
+}
+.swiper-slide img {
+    width: 90%;
+    max-height: auto;
+}
+.slide-wrapper {
+    position: absolute;
+    box-sizing: content-box;
+    max-width: 80%;
+    bottom: 27px;
 }
 .slide-header {
     font-family: 'Segoe UI', sans-serif;
@@ -224,7 +251,7 @@ margin-top: 125px;
     line-height: 44px;
     box-sizing: content-box;
     margin-left: 32px;
-
+    
 }
 .slide-inskr {
     font-family: 'Segoe UI', sans-serif;
@@ -235,5 +262,27 @@ margin-top: 125px;
     box-sizing: content-box;
     margin-left: 32px;
     margin-top: 14px;
-
+    
+}
+.slide-wrapper__img {
+    color: #0b0b0b;
+}
+.button-wrapper {
+background-color: #0b0b0b;
+display: flex;
+margin-top: 48px;
+margin-left: 24px;
+}
+.s-button-prev {
+    border: 1px solid #fff;
+    opacity: 0.5;
+    padding: 22px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.s-button-next {
+    border: 1px solid #fff;
+    opacity: 0.5;
+    padding: 22px;
+    border-radius: 50%;
 }
