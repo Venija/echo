@@ -1,3 +1,12 @@
+let contentVue = document.querySelector('.access-bar');
+let button = document.querySelector('.btn-hidden');
+
+button.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    contentVue.classList.toggle("access-bar-hidden");
+});
+
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -14,3 +23,4 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.s-button-prev',
     },
 });
+
