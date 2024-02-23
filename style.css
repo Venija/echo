@@ -49,6 +49,7 @@
 }
 .btn-hidden:hover {
     cursor: pointer;
+    background-color: coral;
 }
 .btn-hidden:active {
     border: 1px;
@@ -83,6 +84,7 @@
 }
 .header-menu__link:hover {
     color: #4A00FF;
+    text-decoration: underline;
 }
 .header-loginmenu {
     display: flex;
@@ -99,6 +101,7 @@
 }
 .header-loginmenu__link:hover {
     color: #4A00FF;
+    text-decoration: underline;
 }
 .header-menusocial {
     display: flex;
@@ -149,6 +152,7 @@ margin-top: 125px;
 }
 .background-image__mail:hover {
     color: #4A00FF;
+    text-decoration: underline;
 }
 .information-section {
     background-color: #0b0b0b;
@@ -235,6 +239,14 @@ margin-top: 125px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+.btn-cards:hover {
+    background-color: #ada310;
+    cursor: pointer;
+}
+.btn-cards:active {
+background-color: #FFFF02;
+cursor: pointer;
 }
 .btn-cards__text {
     font-family: 'Segoe UI', sans-serif;
