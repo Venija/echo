@@ -291,6 +291,12 @@ cursor: pointer;
     margin: auto;
     position: relative;
 }
+.slider:hover {
+    cursor: grab;
+}
+.slider:active {
+    cursor: grabbing;
+}
 .swiper {
     overflow: hidden;
     position: relative;
@@ -357,9 +363,11 @@ cursor: pointer;
 }
 .s-button-next:hover {
     opacity: 1;
+    cursor: pointer;
 }
 .s-button-prev:hover {
     opacity: 1;
+    cursor: pointer;
 }
 .highlights-section {
     font-family: 'Segoe UI', sans-serif;
@@ -406,14 +414,17 @@ cursor: pointer;
 .highlights-artist:hover {
     color: #4A00FF;
     border-color: #4A00FF;
+    cursor: pointer;
 }
 .highlights-title:hover {
     color: #4A00FF;
     border-color: #4A00FF;
+    cursor: pointer;
 }
 .highlights-date:hover {
     color: #4A00FF;
     border-color: #4A00FF;
+    cursor: pointer;
 }
 .footer-section {
     font-family: 'Segoe UI', sans-serif;
