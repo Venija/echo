@@ -58,6 +58,8 @@
 }
 .header {
     background-color: #0b0b0b;
+    position: fixed;
+    width: 100%;
 }
 .header-navigation {
     font-family: 'Segoe UI', sans-serif;
@@ -177,7 +179,7 @@ margin-top: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:start;
 }
 .exchange-card {
     display: flex;
@@ -189,7 +191,7 @@ margin-top: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .support-card {
     display: flex;
@@ -201,7 +203,7 @@ margin-top: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .card-header {
     font-family: 'Segoe UI', sans-serif;
@@ -233,12 +235,19 @@ margin-top: 125px;
     margin-left: 112px;
     margin-right: 112px;
 }
+.card-header__inform-blue {
+    color: #fff;
+}
+.card-header__preskr-blue {
+    color: #fff;
+}
 .btn-cards {
     margin-top: 32px;
     background-color: #0b0b0b;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    margin-left: 112px;
 }
 .btn-cards:hover {
     background-color: #ada310;
@@ -300,6 +309,7 @@ cursor: pointer;
 .swiper {
     overflow: hidden;
     position: relative;
+    margin-left: 24px;
 }
 .swiper-wrapper {
     box-sizing: content-box;
