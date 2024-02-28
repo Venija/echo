@@ -9,11 +9,9 @@
     background-color: #282828;
     padding-top: 22px;
     padding-bottom: 22px;
-
-    transition: 2s;
     width: 100%;
 }
-body {
+.body {
     transform: translateY(0);
 }
 .body-hidden {
@@ -62,6 +60,8 @@ body {
     background-color: #0b0b0b;
     position: fixed;
     width: 100%;
+    z-index: 5;
+    top: 4.9em;
 }
 .header-navigation {
     font-family: 'Segoe UI', sans-serif;
@@ -476,4 +476,61 @@ text-decoration: none;
 }
 .footer-link:hover {
     color: #4A00FF;
+}
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 5em;
+    left: 0;
+    background-color: #000000b2;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+.modal-area {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.modal-window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.modal-form {
+    background-color: #fff;
+    color: #000;
+    max-width: 800px;
+    padding: 50px;
+    position: relative;
+}
+.form {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 32px;
+    background-color: #fff;
+    margin: 0 0 30px 0;
+}
+.form-prescr {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 23px;
+}
+.btn-modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
 }
