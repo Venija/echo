@@ -1,9 +1,9 @@
-let contentVue = document.querySelector('.access-bar');
+let contentVue = document.querySelector('.body');
 let button = document.querySelector('.btn-hidden');
 
 button.addEventListener("click", function (evt) {
     evt.preventDefault();
-    contentVue.classList.toggle("access-bar-hidden");
+    contentVue.classList.toggle("body-hidden");
 });
 
 

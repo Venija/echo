@@ -4,19 +4,21 @@
     box-sizing: border-box;
 }
 .access-bar {
-    position: absolute;
     display: flex;
     justify-content: space-between;
     background-color: #282828;
     padding-top: 22px;
     padding-bottom: 22px;
-    z-index: 2;
-    transform: translateY(0);
+
     transition: 2s;
     width: 100%;
 }
-.access-bar-hidden {
-    transform: translateY(-100%);
+body {
+    transform: translateY(0);
+}
+.body-hidden {
+    transform: translateY(-5em);
+    transition: 2s;
 }
 .hidden-text {
     font-family: 'Segoe UI', sans-serif;
@@ -441,6 +443,7 @@ cursor: pointer;
     font-weight: normal;
     font-style: normal;
     background-color: #0b0b0b;
+    margin-bottom: -5em;
 }
 .footer-text {
     justify-content: center;
