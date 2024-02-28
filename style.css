@@ -4,19 +4,21 @@
     box-sizing: border-box;
 }
 .access-bar {
-    position: absolute;
     display: flex;
     justify-content: space-between;
     background-color: #282828;
     padding-top: 22px;
     padding-bottom: 22px;
-    z-index: 2;
-    transform: translateY(0);
+
     transition: 2s;
     width: 100%;
 }
-.access-bar-hidden {
-    transform: translateY(-100%);
+body {
+    transform: translateY(0);
+}
+.body-hidden {
+    transform: translateY(-5em);
+    transition: 2s;
 }
 .hidden-text {
     font-family: 'Segoe UI', sans-serif;
@@ -58,6 +60,8 @@
 }
 .header {
     background-color: #0b0b0b;
+    position: fixed;
+    width: 100%;
 }
 .header-navigation {
     font-family: 'Segoe UI', sans-serif;
@@ -177,7 +181,7 @@ margin-top: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:start;
 }
 .exchange-card {
     display: flex;
@@ -189,7 +193,7 @@ margin-top: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .support-card {
     display: flex;
@@ -201,7 +205,7 @@ margin-top: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 .card-header {
     font-family: 'Segoe UI', sans-serif;
@@ -233,12 +237,19 @@ margin-top: 125px;
     margin-left: 112px;
     margin-right: 112px;
 }
+.card-header__inform-blue {
+    color: #fff;
+}
+.card-header__preskr-blue {
+    color: #fff;
+}
 .btn-cards {
     margin-top: 32px;
     background-color: #0b0b0b;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    margin-left: 112px;
 }
 .btn-cards:hover {
     background-color: #ada310;
@@ -300,6 +311,7 @@ cursor: pointer;
 .swiper {
     overflow: hidden;
     position: relative;
+    margin-left: 24px;
 }
 .swiper-wrapper {
     box-sizing: content-box;
@@ -431,6 +443,7 @@ cursor: pointer;
     font-weight: normal;
     font-style: normal;
     background-color: #0b0b0b;
+    margin-bottom: -5em;
 }
 .footer-text {
     justify-content: center;
