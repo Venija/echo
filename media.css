@@ -1,0 +1,30 @@
+@media (max-width: 1230px) {
+    .header-menu {
+        display: none;
+    }
+    .header-loginmenu {
+        display: none;
+    }
+    .header-menusocial {
+        display: none;
+    }
+    .nav-button {
+        display: block;
+        z-index: 11;
+    }
+    .header-navigation.open .header-menu {
+        display: flex;
+        position: fixed;
+        top: 5em;
+        bottom: 0;
+        left: -150px;
+        right: 0;
+        background-color: #0b0b0b;
+        color: #fff;
+        z-index: 10;
+        flex-direction: column;
+        padding: 30px 50px;
+        row-gap: 30px;
+    }
+
+}

@@ -24,3 +24,14 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
+const nav = document.querySelector('#nav');
+const navBtn = document.querySelector('#nav-nav-button');
+const navBtnImg = document.querySelector('#nav-button__img')
+
+navBtn.onclick = () => {
+    if (nav.classList.toggle('open')) {
+
+    } else {
+
+    }
+}
